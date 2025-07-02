@@ -1,0 +1,3120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_35dfa6afad261390870380e44d4931c8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_35dfa6afad261390870380e44d4931c8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_35dfa6afad261390870380e44d4931c8 = L.map(
+                "map_35dfa6afad261390870380e44d4931c8",
+                {
+                    center: [-10.0, -75.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_116b33daf966278059f1450a8efd0713 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_116b33daf966278059f1450a8efd0713.addTo(map_35dfa6afad261390870380e44d4931c8);
+        
+    
+            var marker_cluster_119b0e67362ef73fe7db117d25db740d = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_e1e89825063197801e74033bbba07caf = L.marker(
+                [-5.30044, -77.9218],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_6b1f1032617831dac6c38fe4fca20904 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_e1e89825063197801e74033bbba07caf.bindTooltip(
+                `<div>
+                     Aguaruna (Chicham)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e1e89825063197801e74033bbba07caf.setIcon(icon_6b1f1032617831dac6c38fe4fca20904);
+            
+    
+            var marker_f5b69424a2490a8fc797d359ecc4bd49 = L.marker(
+                [-12.4931, -70.5533],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_787af46a9ac0a4442468d8cea9311920 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_f5b69424a2490a8fc797d359ecc4bd49.bindTooltip(
+                `<div>
+                     Amarakaeri (Harakmbut)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f5b69424a2490a8fc797d359ecc4bd49.setIcon(icon_787af46a9ac0a4442468d8cea9311920);
+            
+    
+            var marker_56ddc19e1cf5380dada1e013c06cacb3 = L.marker(
+                [-1.96126, -75.0612],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_7773352dcede0908a46f6ebf68052506 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_56ddc19e1cf5380dada1e013c06cacb3.bindTooltip(
+                `<div>
+                     Arabela (Zaparoan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_56ddc19e1cf5380dada1e013c06cacb3.setIcon(icon_7773352dcede0908a46f6ebf68052506);
+            
+    
+            var marker_23eb289148cec5ef77c7e8b810a4e166 = L.marker(
+                [-7.878618, -78.116456],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_98b19bfea29f127a2f752bb901a8a89c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_23eb289148cec5ef77c7e8b810a4e166.bindTooltip(
+                `<div>
+                     Culli (NK)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_23eb289148cec5ef77c7e8b810a4e166.setIcon(icon_98b19bfea29f127a2f752bb901a8a89c);
+            
+    
+            var marker_5363a4acfc9856baeae2d45929213ce9 = L.marker(
+                [-5.568969, -80.828247],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_3087ea27b97e4fc0d2d7dc724d3f6686 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_5363a4acfc9856baeae2d45929213ce9.bindTooltip(
+                `<div>
+                     Sechuran (Sechuran)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5363a4acfc9856baeae2d45929213ce9.setIcon(icon_3087ea27b97e4fc0d2d7dc724d3f6686);
+            
+    
+            var marker_08d40b49ecd57f62ad87148a6903c8cf = L.marker(
+                [-1.284096, -75.084405],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_3c62e25a44d76308b199aca2ae63828f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_08d40b49ecd57f62ad87148a6903c8cf.bindTooltip(
+                `<div>
+                     Aewa (NK)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_08d40b49ecd57f62ad87148a6903c8cf.setIcon(icon_3c62e25a44d76308b199aca2ae63828f);
+            
+    
+            var marker_ab3ed2407bd18daddc95b9d507ff2310 = L.marker(
+                [-10.9777, -74.9153],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_f3dbb69e40cb9d943c71400c059f35c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ab3ed2407bd18daddc95b9d507ff2310.bindTooltip(
+                `<div>
+                     Ashéninka Perené (Arawakan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ab3ed2407bd18daddc95b9d507ff2310.setIcon(icon_f3dbb69e40cb9d943c71400c059f35c5);
+            
+    
+            var marker_b8cf7e7bb7403a16dbe35dff2c099446 = L.marker(
+                [-10.7583, -74.2014],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_3ed6a872ec5fdc603999a996f9af3eae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_b8cf7e7bb7403a16dbe35dff2c099446.bindTooltip(
+                `<div>
+                     Ashéninka Pajonal (Arawakan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b8cf7e7bb7403a16dbe35dff2c099446.setIcon(icon_3ed6a872ec5fdc603999a996f9af3eae);
+            
+    
+            var marker_b4b0324e39c4cc6b3992d20f37921804 = L.marker(
+                [-13.84714, -74.32246],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_aee84f48f1d4088fe50dad1a2bc8ea08 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_b4b0324e39c4cc6b3992d20f37921804.bindTooltip(
+                `<div>
+                     Ayacucho Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b4b0324e39c4cc6b3992d20f37921804.setIcon(icon_aee84f48f1d4088fe50dad1a2bc8ea08);
+            
+    
+            var marker_869164a3905b7e86d3e7449ea2da5d95 = L.marker(
+                [-5.330824, -80.651093],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_6e38208328562901108948365fc7810d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_869164a3905b7e86d3e7449ea2da5d95.bindTooltip(
+                `<div>
+                     Tallán (Tallán)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_869164a3905b7e86d3e7449ea2da5d95.setIcon(icon_6e38208328562901108948365fc7810d);
+            
+    
+            var marker_11c2f4afa89daaa91c6afb5f7157951a = L.marker(
+                [-4.09028, -76.01],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_bde228f40ee6cc0da0e728d0b0273232 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_11c2f4afa89daaa91c6afb5f7157951a.bindTooltip(
+                `<div>
+                     Omurano (NK)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_11c2f4afa89daaa91c6afb5f7157951a.setIcon(icon_bde228f40ee6cc0da0e728d0b0273232);
+            
+    
+            var marker_cb1d8df5462d118b0237164e7b525cb1 = L.marker(
+                [-7.09314, -78.3214],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_71d56c100c0592e93e096e89b653d3dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_cb1d8df5462d118b0237164e7b525cb1.bindTooltip(
+                `<div>
+                     Cajamarca Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cb1d8df5462d118b0237164e7b525cb1.setIcon(icon_71d56c100c0592e93e096e89b653d3dc);
+            
+    
+            var marker_ba97788dac570624543d20764236d14b = L.marker(
+                [-4.23835, -76.9347],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_42cce0b8c578090667395a09bb922632 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ba97788dac570624543d20764236d14b.bindTooltip(
+                `<div>
+                     Candoshi-Shapra (Candoshi-Shapra)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ba97788dac570624543d20764236d14b.setIcon(icon_42cce0b8c578090667395a09bb922632);
+            
+    
+            var marker_c36ededd8a3043f254960262b24913ab = L.marker(
+                [-6.63254, -74.3813],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_fb6959265bdd9014a3f86fa515d082df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c36ededd8a3043f254960262b24913ab.bindTooltip(
+                `<div>
+                     Capanahua (Pano-Tacanan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c36ededd8a3043f254960262b24913ab.setIcon(icon_fb6959265bdd9014a3f86fa515d082df);
+            
+    
+            var marker_bcd26e768d13a7e8338d3ad1e5392e19 = L.marker(
+                [-8.70232, -75.4206],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_f8cc224fde79ad8d289859486f308a1a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_bcd26e768d13a7e8338d3ad1e5392e19.bindTooltip(
+                `<div>
+                     Cashibo-Cacataibo (Pano-Tacanan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bcd26e768d13a7e8338d3ad1e5392e19.setIcon(icon_f8cc224fde79ad8d289859486f308a1a);
+            
+    
+            var marker_155c7439b26e50f72fbe880ea896d7a2 = L.marker(
+                [-8.099583, -79.053383],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_d0f6c0f8ba88bb1a9ab38ac63bf41ed4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_155c7439b26e50f72fbe880ea896d7a2.bindTooltip(
+                `<div>
+                     Quignam (NK)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_155c7439b26e50f72fbe880ea896d7a2.setIcon(icon_d0f6c0f8ba88bb1a9ab38ac63bf41ed4);
+            
+    
+            var marker_39759a19239e2277fc50bf0cafb73322 = L.marker(
+                [-13.31951, -71.22749],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_006b227711dd9c91690eb3024ab36537 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_39759a19239e2277fc50bf0cafb73322.bindTooltip(
+                `<div>
+                     Huachipaeri (Harakmbut)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_39759a19239e2277fc50bf0cafb73322.setIcon(icon_006b227711dd9c91690eb3024ab36537);
+            
+    
+            var marker_b6e89d8822e32b9ba41fd93ab199b3f1 = L.marker(
+                [-5.1149, -75.6778],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_ffa7d7412ee7849ac2954120b44f688f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_b6e89d8822e32b9ba41fd93ab199b3f1.bindTooltip(
+                `<div>
+                     Chamicuro (Arawakan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b6e89d8822e32b9ba41fd93ab199b3f1.setIcon(icon_ffa7d7412ee7849ac2954120b44f688f);
+            
+    
+            var marker_ff012385f431dfa75773f4dc34e40668 = L.marker(
+                [-5.63764, -76.8252],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_4dcad3bf36b8a61c8ff93706393af348 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ff012385f431dfa75773f4dc34e40668.bindTooltip(
+                `<div>
+                     Shawi (Cahuapanan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ff012385f431dfa75773f4dc34e40668.setIcon(icon_4dcad3bf36b8a61c8ff93706393af348);
+            
+    
+            var marker_d5cbd263a9653c2d8ad0f944c2ac6d07 = L.marker(
+                [-6.58333, -77.7],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_e6c4084ecfe7cb25bcf646e6683400c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_d5cbd263a9653c2d8ad0f944c2ac6d07.bindTooltip(
+                `<div>
+                     Hibito (Hibito-Cholon)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d5cbd263a9653c2d8ad0f944c2ac6d07.setIcon(icon_e6c4084ecfe7cb25bcf646e6683400c8);
+            
+    
+            var marker_cd867b0da0fc0954fa2d55cb42793d7a = L.marker(
+                [-9.23129, -75.9621],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_fd6d74fd9433b3ecf1d0602bbf821515 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_cd867b0da0fc0954fa2d55cb42793d7a.bindTooltip(
+                `<div>
+                     Cholón (Hibito-Cholon)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cd867b0da0fc0954fa2d55cb42793d7a.setIcon(icon_fd6d74fd9433b3ecf1d0602bbf821515);
+            
+    
+            var marker_a2f1b600b3736f0a8372f1673c34c8e6 = L.marker(
+                [-3.3196, -74.5411],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_7c00e65ad8afdec53fc9cd165151e68d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_a2f1b600b3736f0a8372f1673c34c8e6.bindTooltip(
+                `<div>
+                     Aushiri (Zaparoan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a2f1b600b3736f0a8372f1673c34c8e6.setIcon(icon_7c00e65ad8afdec53fc9cd165151e68d);
+            
+    
+            var marker_72a8dde5a42fda852c5d6ad15bec1f5e = L.marker(
+                [-14.0853, -71.7663],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_05255b8b4d31bfc10b2aa9819d951e7a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_72a8dde5a42fda852c5d6ad15bec1f5e.bindTooltip(
+                `<div>
+                     Cusco Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_72a8dde5a42fda852c5d6ad15bec1f5e.setIcon(icon_05255b8b4d31bfc10b2aa9819d951e7a);
+            
+    
+            var marker_3fad03945d8a4e6511e34efa84d43ed6 = L.marker(
+                [-3.5, -72.0],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_ed2c541dfd80e0f749e30e010956e5a0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_3fad03945d8a4e6511e34efa84d43ed6.bindTooltip(
+                `<div>
+                     Peba (Peba-Yagua)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3fad03945d8a4e6511e34efa84d43ed6.setIcon(icon_ed2c541dfd80e0f749e30e010956e5a0);
+            
+    
+            var marker_3167c950d1ddbd3e062dac5120041b3b = L.marker(
+                [-4.16666, -73.6667],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_335680e937318c52084328821334677e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_3167c950d1ddbd3e062dac5120041b3b.bindTooltip(
+                `<div>
+                     Yameo (Peba-Yagua)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3167c950d1ddbd3e062dac5120041b3b.setIcon(icon_335680e937318c52084328821334677e);
+            
+    
+            var marker_b8485239d521ad763e03b3152e722836 = L.marker(
+                [-12.71823, -75.913623],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_0d5face84ac434fbb66d77f49dd1c6dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_b8485239d521ad763e03b3152e722836.bindTooltip(
+                `<div>
+                     Cauqui of Cachuy (Aymaran)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b8485239d521ad763e03b3152e722836.setIcon(icon_0d5face84ac434fbb66d77f49dd1c6dd);
+            
+    
+            var marker_6db4cdd52cde7fced93ae6606b8fb36c = L.marker(
+                [-2.98889, -73.21293],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_6ff3fad3d2007e553a8319ffb420e85c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_6db4cdd52cde7fced93ae6606b8fb36c.bindTooltip(
+                `<div>
+                     Nueva Vida Maijuna Sign Language (Sign Languages)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6db4cdd52cde7fced93ae6606b8fb36c.setIcon(icon_6ff3fad3d2007e553a8319ffb420e85c);
+            
+    
+            var marker_68a667abca4456505cda05e8843d8520 = L.marker(
+                [-12.51094, -73.86124],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_913a663e412a152951f03eb5d57e5f80 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_68a667abca4456505cda05e8843d8520.bindTooltip(
+                `<div>
+                     Sivia Sign Language (Sign Languages)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_68a667abca4456505cda05e8843d8520.setIcon(icon_913a663e412a152951f03eb5d57e5f80);
+            
+    
+            var marker_6a5a0339b84e392959cd07c818a8c886 = L.marker(
+                [-9.57135, -75.594],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_cb1d3d7d3d8c7552cc5731ae701599f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_6a5a0339b84e392959cd07c818a8c886.bindTooltip(
+                `<div>
+                     Huallaga Huánuco Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6a5a0339b84e392959cd07c818a8c886.setIcon(icon_cb1d3d7d3d8c7552cc5731ae701599f4);
+            
+    
+            var marker_a00cd5a56ef6b145e17e9c8e4988c07f = L.marker(
+                [-4.444587, -76.577683],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_1e6c9f53113c7206903da5448dcb2067 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_a00cd5a56ef6b145e17e9c8e4988c07f.bindTooltip(
+                `<div>
+                     Jesuit-Maynas (Cahuapanan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a00cd5a56ef6b145e17e9c8e4988c07f.setIcon(icon_1e6c9f53113c7206903da5448dcb2067);
+            
+    
+            var marker_3fcc3266357507c35cf844f4c73b04d5 = L.marker(
+                [-3.99109, -77.9797],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_021a5cf1f90514f7a149bc93deac8edd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_3fcc3266357507c35cf844f4c73b04d5.bindTooltip(
+                `<div>
+                     Huambisa (Chicham)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3fcc3266357507c35cf844f4c73b04d5.setIcon(icon_021a5cf1f90514f7a149bc93deac8edd);
+            
+    
+            var marker_a0af4bf89debed64c81e19d404e9c168 = L.marker(
+                [-11.14278, -76.73046],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_4b80c19557476ceffc04652736a524a2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_a0af4bf89debed64c81e19d404e9c168.bindTooltip(
+                `<div>
+                     Pacaraos Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a0af4bf89debed64c81e19d404e9c168.setIcon(icon_4b80c19557476ceffc04652736a524a2);
+            
+    
+            var marker_d507edb5686bfb09be5682ff29451ca6 = L.marker(
+                [-3.31233, -73.97046],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_3199cb347702f98c77fe9e1477fc0d6a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_d507edb5686bfb09be5682ff29451ca6.bindTooltip(
+                `<div>
+                     Iquito (Zaparoan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d507edb5686bfb09be5682ff29451ca6.setIcon(icon_3199cb347702f98c77fe9e1477fc0d6a);
+            
+    
+            var marker_de3c7b09fd0e2430723fce224696f438 = L.marker(
+                [-5.25, -75.8333],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_de89d395bea592ef022872e5d6c64f0a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_de3c7b09fd0e2430723fce224696f438.bindTooltip(
+                `<div>
+                     Aguano (NK)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_de3c7b09fd0e2430723fce224696f438.setIcon(icon_de89d395bea592ef022872e5d6c64f0a);
+            
+    
+            var marker_cced3fd7c6b7a56d483e17ad7d8973f7 = L.marker(
+                [-7.75236, -74.5193],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_a7a95848fd5921eb62851e1e081b05f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_cced3fd7c6b7a56d483e17ad7d8973f7.bindTooltip(
+                `<div>
+                     Isconahua (Pano-Tacanan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cced3fd7c6b7a56d483e17ad7d8973f7.setIcon(icon_a7a95848fd5921eb62851e1e081b05f4);
+            
+    
+            var marker_78ba6214a1790c94b8e5fa000be60313 = L.marker(
+                [-12.741939, -75.809231],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_9745fb313f16294c55d236bba75e9261 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_78ba6214a1790c94b8e5fa000be60313.bindTooltip(
+                `<div>
+                     Jaqaru (Aymaran)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_78ba6214a1790c94b8e5fa000be60313.setIcon(icon_9745fb313f16294c55d236bba75e9261);
+            
+    
+            var marker_ed2c261aadc2dfa163056c84c83b92e6 = L.marker(
+                [-3.29664, -76.6056],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_06fb737a8b91bb3dce874aa8b35a7e1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ed2c261aadc2dfa163056c84c83b92e6.bindTooltip(
+                `<div>
+                     Andoa (Zaparoan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ed2c261aadc2dfa163056c84c83b92e6.setIcon(icon_06fb737a8b91bb3dce874aa8b35a7e1c);
+            
+    
+            var marker_f858a4f9da7c2b40aa76ff68b4e08e89 = L.marker(
+                [-5.40317, -76.4103],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_c29aba27a2f7c3ed4d3eb40bb643e05e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_f858a4f9da7c2b40aa76ff68b4e08e89.bindTooltip(
+                `<div>
+                     Jebero (Cahuapanan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f858a4f9da7c2b40aa76ff68b4e08e89.setIcon(icon_c29aba27a2f7c3ed4d3eb40bb643e05e);
+            
+    
+            var marker_0d611ad4a12bb5b3b991ef43a2bb7b21 = L.marker(
+                [-3.72665, -73.9469],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_1e1e3fe137298ba910dda14261305707 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_0d611ad4a12bb5b3b991ef43a2bb7b21.bindTooltip(
+                `<div>
+                     Cahuarano (Zaparoan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0d611ad4a12bb5b3b991ef43a2bb7b21.setIcon(icon_1e1e3fe137298ba910dda14261305707);
+            
+    
+            var marker_b31fac48ca8e81482d3230df69827040 = L.marker(
+                [-12.1291, -72.5017],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_bbb2979dfcf4683e0f25e175affb37b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_b31fac48ca8e81482d3230df69827040.bindTooltip(
+                `<div>
+                     Machiguenga (Arawakan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b31fac48ca8e81482d3230df69827040.setIcon(icon_bbb2979dfcf4683e0f25e175affb37b9);
+            
+    
+            var marker_01acc926201cc41367875bd80d0592f8 = L.marker(
+                [-11.543809, -68.277741],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_7926c62126435ffb05926e7d7624f569 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_01acc926201cc41367875bd80d0592f8.bindTooltip(
+                `<div>
+                     Mabenaro (Pano-Tacanan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_01acc926201cc41367875bd80d0592f8.setIcon(icon_7926c62126435ffb05926e7d7624f569);
+            
+    
+            var marker_02948a98be9b2b0b291a1cec6e46c367 = L.marker(
+                [-12.85, -75.649],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_2f60c323028d10b6a47852799dd6ccea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_02948a98be9b2b0b291a1cec6e46c367.bindTooltip(
+                `<div>
+                     Chincha Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_02948a98be9b2b0b291a1cec6e46c367.setIcon(icon_2f60c323028d10b6a47852799dd6ccea);
+            
+    
+            var marker_30dd2ece0c04a70c2fb5598cead80512 = L.marker(
+                [-11.4745, -70.7953],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_9838507774a8c7cc564d9aea8f839330 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_30dd2ece0c04a70c2fb5598cead80512.bindTooltip(
+                `<div>
+                     Mashco Piro (Arawakan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_30dd2ece0c04a70c2fb5598cead80512.setIcon(icon_9838507774a8c7cc564d9aea8f839330);
+            
+    
+            var marker_bb9715a514055f82e9594ed9ffcbb00c = L.marker(
+                [-6.1715, -79.468],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_2176bc2eaf373e010505693600294cd7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_bb9715a514055f82e9594ed9ffcbb00c.bindTooltip(
+                `<div>
+                     Lambayeque Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bb9715a514055f82e9594ed9ffcbb00c.setIcon(icon_2176bc2eaf373e010505693600294cd7);
+            
+    
+            var marker_37a30d13235729d6c4a401e53a349d69 = L.marker(
+                [-8.01667, -79.0],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_01f1a98a629765a9d43c6e59f2bc7bc1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_37a30d13235729d6c4a401e53a349d69.bindTooltip(
+                `<div>
+                     Mochica (NK)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_37a30d13235729d6c4a401e53a349d69.setIcon(icon_01f1a98a629765a9d43c6e59f2bc7bc1);
+            
+    
+            var marker_ac366907a610817ede8713fa31fd1610 = L.marker(
+                [-5.7441796, -76.426712],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_40761fa6119e450c433e9658a84ae907 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ac366907a610817ede8713fa31fd1610.bindTooltip(
+                `<div>
+                     Muniche (NK)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ac366907a610817ede8713fa31fd1610.setIcon(icon_40761fa6119e450c433e9658a84ae907);
+            
+    
+            var marker_d019f4b90d60bf5ec43b2ede82728b9f = L.marker(
+                [-12.1018, -72.3507],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_5918658fb0c36088f7a15809c078bf21 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_d019f4b90d60bf5ec43b2ede82728b9f.bindTooltip(
+                `<div>
+                     Nanti (Arawakan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d019f4b90d60bf5ec43b2ede82728b9f.setIcon(icon_5918658fb0c36088f7a15809c078bf21);
+            
+    
+            var marker_ba6c8a9243e60bf4af7ee4dc074f480f = L.marker(
+                [-11.5349, -74.4371],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_283e901cfde7a84eec23dee139ca39ac = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ba6c8a9243e60bf4af7ee4dc074f480f.bindTooltip(
+                `<div>
+                     Nomatsiguenga (Arawakan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ba6c8a9243e60bf4af7ee4dc074f480f.setIcon(icon_283e901cfde7a84eec23dee139ca39ac);
+            
+    
+            var marker_3662355ff2297dccd4d80ba395a2356d = L.marker(
+                [-11.2132, -75.8128],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_a22a05a6a44894e42ff9c644e7ca08fc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_3662355ff2297dccd4d80ba395a2356d.bindTooltip(
+                `<div>
+                     North Junín Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3662355ff2297dccd4d80ba395a2356d.setIcon(icon_a22a05a6a44894e42ff9c644e7ca08fc);
+            
+    
+            var marker_6d52841fd6d5d8e77e29b2cf9d3adb71 = L.marker(
+                [-5.634573, -73.126831],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_3525c22045f8a6fc5dea425386127e50 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_6d52841fd6d5d8e77e29b2cf9d3adb71.bindTooltip(
+                `<div>
+                     Morike (Arawakan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6d52841fd6d5d8e77e29b2cf9d3adb71.setIcon(icon_3525c22045f8a6fc5dea425386127e50);
+            
+    
+            var marker_029db94e7c08b5cf9508b3ed801a3d16 = L.marker(
+                [-12.46525, -69.30827],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_2eaeeee8a1743490492122307ae80cf9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_029db94e7c08b5cf9508b3ed801a3d16.bindTooltip(
+                `<div>
+                     Iñapari (Arawakan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_029db94e7c08b5cf9508b3ed801a3d16.setIcon(icon_2eaeeee8a1743490492122307ae80cf9);
+            
+    
+            var marker_9f49dad7f8de5e86137e04a03c1df2d4 = L.marker(
+                [-2.86315, -72.4926],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_0720f8bdd4264e43edfbed9d138d1ff5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_9f49dad7f8de5e86137e04a03c1df2d4.bindTooltip(
+                `<div>
+                     Maijiki (Tucanoan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9f49dad7f8de5e86137e04a03c1df2d4.setIcon(icon_0720f8bdd4264e43edfbed9d138d1ff5);
+            
+    
+            var marker_c4e075614ef1abe57692cf4fc4c70a01 = L.marker(
+                [-6.137278, -73.544312],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_9d6c3a5dc53a1ee21b1919c1ac451f3a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c4e075614ef1abe57692cf4fc4c70a01.bindTooltip(
+                `<div>
+                     Remo of the Blanco river (Pano-Tacanan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c4e075614ef1abe57692cf4fc4c70a01.setIcon(icon_9d6c3a5dc53a1ee21b1919c1ac451f3a);
+            
+    
+            var marker_30bd3f5ab55730f1da98defce1cf688a = L.marker(
+                [-12.62, -75.7],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_0774979728e5c8131eb5ec39019fa427 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_30bd3f5ab55730f1da98defce1cf688a.bindTooltip(
+                `<div>
+                     Laraos (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_30bd3f5ab55730f1da98defce1cf688a.setIcon(icon_0774979728e5c8131eb5ec39019fa427);
+            
+    
+            var marker_dbd21371bffabab0feddb5a4d93ef7c0 = L.marker(
+                [-9.99999, -76.5],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_b55ccf2f53cf7b0f5ea1a85b2537b0df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_dbd21371bffabab0feddb5a4d93ef7c0.bindTooltip(
+                `<div>
+                     Classical Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dbd21371bffabab0feddb5a4d93ef7c0.setIcon(icon_b55ccf2f53cf7b0f5ea1a85b2537b0df);
+            
+    
+            var marker_2e169e8bd7f91665153622f45213439b = L.marker(
+                [-9.38709, -77.7768],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_a197b73d786b44bc7cdd6d45ebc17800 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_2e169e8bd7f91665153622f45213439b.bindTooltip(
+                `<div>
+                     Huaylas Ancash Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2e169e8bd7f91665153622f45213439b.setIcon(icon_a197b73d786b44bc7cdd6d45ebc17800);
+            
+    
+            var marker_73b833988558dbacdf62ba65eea211b3 = L.marker(
+                [-9.15718, -76.3372],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_92a7e774767c8ae3ecd44c61d4bc0fb5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_73b833988558dbacdf62ba65eea211b3.bindTooltip(
+                `<div>
+                     Huamalíes-Dos de Mayo Huánuco Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_73b833988558dbacdf62ba65eea211b3.setIcon(icon_92a7e774767c8ae3ecd44c61d4bc0fb5);
+            
+    
+            var marker_b324acc5304fe5bb5f0ded83dc3ff69e = L.marker(
+                [-12.1809, -75.2055],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_5a07ffab5f212310a778d7e9399504a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_b324acc5304fe5bb5f0ded83dc3ff69e.bindTooltip(
+                `<div>
+                     Huaylla Wanca Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b324acc5304fe5bb5f0ded83dc3ff69e.setIcon(icon_5a07ffab5f212310a778d7e9399504a3);
+            
+    
+            var marker_97f5167f4eb0f79c6918d4a0fe4fddfd = L.marker(
+                [-11.6747, -75.2786],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_5033056a8220ce7544564650e4f86455 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_97f5167f4eb0f79c6918d4a0fe4fddfd.bindTooltip(
+                `<div>
+                     Jauja Wanca Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_97f5167f4eb0f79c6918d4a0fe4fddfd.setIcon(icon_5033056a8220ce7544564650e4f86455);
+            
+    
+            var marker_b57cbc79718a102d94c1de4a2f908178 = L.marker(
+                [-10.5138, -76.1135],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_2f93026278bd09b324a7fad073062dc2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_b57cbc79718a102d94c1de4a2f908178.bindTooltip(
+                `<div>
+                     Ambo-Pasco Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b57cbc79718a102d94c1de4a2f908178.setIcon(icon_2f93026278bd09b324a7fad073062dc2);
+            
+    
+            var marker_929403ca0ce944585525de0abb00617f = L.marker(
+                [-10.4929, -76.5314],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_0c24a8c5783e434751010fa82e8689a8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_929403ca0ce944585525de0abb00617f.bindTooltip(
+                `<div>
+                     Chaupihuaranga Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_929403ca0ce944585525de0abb00617f.setIcon(icon_0c24a8c5783e434751010fa82e8689a8);
+            
+    
+            var marker_2bfd21384431c19a4945dbd53545a625 = L.marker(
+                [-10.4126, -76.9602],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_98e923e476a05a00a1ab0dc8c37fe167 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_2bfd21384431c19a4945dbd53545a625.bindTooltip(
+                `<div>
+                     Cajatambo North Lima Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2bfd21384431c19a4945dbd53545a625.setIcon(icon_98e923e476a05a00a1ab0dc8c37fe167);
+            
+    
+            var marker_dbafa24576cbeca5bcfe2f6007137371 = L.marker(
+                [-10.1831, -77.4152],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_c977a0837d8b90c8de1e100c87b9bfb6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_dbafa24576cbeca5bcfe2f6007137371.bindTooltip(
+                `<div>
+                     Chiquián Ancash Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dbafa24576cbeca5bcfe2f6007137371.setIcon(icon_c977a0837d8b90c8de1e100c87b9bfb6);
+            
+    
+            var marker_61ae2d8f39e3eb5983942bedc226eeab = L.marker(
+                [-12.4653, -69.3083],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_f5f814629d2ce3aede0b39c50c62e722 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_61ae2d8f39e3eb5983942bedc226eeab.bindTooltip(
+                `<div>
+                     Modern Iñapari (Arawakan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_61ae2d8f39e3eb5983942bedc226eeab.setIcon(icon_f5f814629d2ce3aede0b39c50c62e722);
+            
+    
+            var marker_55c5ff90236dcfeb10086c81553ebe6d = L.marker(
+                [-7.24999, -74.9166],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_d62c5fb4017f8a5bbc844271ef8c2ad9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_55c5ff90236dcfeb10086c81553ebe6d.bindTooltip(
+                `<div>
+                     Sensi (Pano-Tacanan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_55c5ff90236dcfeb10086c81553ebe6d.setIcon(icon_d62c5fb4017f8a5bbc844271ef8c2ad9);
+            
+    
+            var marker_c0e834acaa16882958973e1f4f8bac2d = L.marker(
+                [-7.16666, -75.0],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_8aebd64ff2386405c12fb5aa08fc6f1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c0e834acaa16882958973e1f4f8bac2d.bindTooltip(
+                `<div>
+                     Panobo (Pano-Tacanan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c0e834acaa16882958973e1f4f8bac2d.setIcon(icon_8aebd64ff2386405c12fb5aa08fc6f1c);
+            
+    
+            var marker_31ab8b220419d154710af8e0842393d8 = L.marker(
+                [-7.33333, -74.0833],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_2f51dc4a2259af47174663e3a2180fe8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_31ab8b220419d154710af8e0842393d8.bindTooltip(
+                `<div>
+                     Remo of the Moa river (Pano-Tacanan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_31ab8b220419d154710af8e0842393d8.setIcon(icon_2f51dc4a2259af47174663e3a2180fe8);
+            
+    
+            var marker_c4f09619a41698658a13976c6640acce = L.marker(
+                [-14.1666, -69.5],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_901d06cf7f6bc9fb12e7ed290acd0b86 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c4f09619a41698658a13976c6640acce.bindTooltip(
+                `<div>
+                     Atsahuaca (Pano-Tacanan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c4f09619a41698658a13976c6640acce.setIcon(icon_901d06cf7f6bc9fb12e7ed290acd0b86);
+            
+    
+            var marker_c5d33609f0ec0b47dcda9f3ee8e3888c = L.marker(
+                [-13.25, -70.8],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_f6eef2ba454b48eb6537dcde520ab85b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c5d33609f0ec0b47dcda9f3ee8e3888c.bindTooltip(
+                `<div>
+                     Arazaire (Pano-Tacanan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c5d33609f0ec0b47dcda9f3ee8e3888c.setIcon(icon_f6eef2ba454b48eb6537dcde520ab85b);
+            
+    
+            var marker_982e2d5eb65bb8848efa24f90baf2d8a = L.marker(
+                [-7.17105, -74.8219],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_f5ae663c366d7b6817834d9b317782f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_982e2d5eb65bb8848efa24f90baf2d8a.bindTooltip(
+                `<div>
+                     Shipibo-Conibo (Pano-Tacanan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_982e2d5eb65bb8848efa24f90baf2d8a.setIcon(icon_f5ae663c366d7b6817834d9b317782f1);
+            
+    
+            var marker_abae99d8dd9d6e96847d09a306a8d6ce = L.marker(
+                [-12.62, -75.7],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_2ce8b21bc565c5e75f6266782e01ddde = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_abae99d8dd9d6e96847d09a306a8d6ce.bindTooltip(
+                `<div>
+                     Tana-Lincha (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_abae99d8dd9d6e96847d09a306a8d6ce.setIcon(icon_2ce8b21bc565c5e75f6266782e01ddde);
+            
+    
+            var marker_f3d37ccac57206d788ab9d488026ede8 = L.marker(
+                [-6.9582, -76.6608],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_7cb33cb6f0384e19539c84176360ac53 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_f3d37ccac57206d788ab9d488026ede8.bindTooltip(
+                `<div>
+                     San Martín Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f3d37ccac57206d788ab9d488026ede8.setIcon(icon_7cb33cb6f0384e19539c84176360ac53);
+            
+    
+            var marker_6e369b4c4a598f301b1d9610ff5b67fa = L.marker(
+                [-6.27021, -77.6615],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_df06e2730f68eabda5ff434689af63c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_6e369b4c4a598f301b1d9610ff5b67fa.bindTooltip(
+                `<div>
+                     Chachapoyas Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6e369b4c4a598f301b1d9610ff5b67fa.setIcon(icon_df06e2730f68eabda5ff434689af63c5);
+            
+    
+            var marker_dbb99aa5990f023226a578d553e28494 = L.marker(
+                [-15.1806, -72.6333],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_cf32f416c6e9b768daa5b4013274ddf4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_dbb99aa5990f023226a578d553e28494.bindTooltip(
+                `<div>
+                     Arequipa-La Unión Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dbb99aa5990f023226a578d553e28494.setIcon(icon_cf32f416c6e9b768daa5b4013274ddf4);
+            
+    
+            var marker_6932a036d3da82456cce6d3c03dde58c = L.marker(
+                [-14.1754, -72.6686],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_bccacbe1df03679a097a2e2f2f3903b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_6932a036d3da82456cce6d3c03dde58c.bindTooltip(
+                `<div>
+                     Eastern Apurímac Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6932a036d3da82456cce6d3c03dde58c.setIcon(icon_bccacbe1df03679a097a2e2f2f3903b8);
+            
+    
+            var marker_429bbadb11f9dad7a4531e10e743a7e1 = L.marker(
+                [-14.608, -70.2084],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_e6f2cc6fbc955f952bc1de31880c626c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_429bbadb11f9dad7a4531e10e743a7e1.bindTooltip(
+                `<div>
+                     Puno Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_429bbadb11f9dad7a4531e10e743a7e1.setIcon(icon_e6f2cc6fbc955f952bc1de31880c626c);
+            
+    
+            var marker_753dab53d9cfe614035ac34a30effa4f = L.marker(
+                [-8.57647, -77.9864],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_e72a0cb4e0cc502f742837fc5b1c8f22 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_753dab53d9cfe614035ac34a30effa4f.bindTooltip(
+                `<div>
+                     Corongo Ancash Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_753dab53d9cfe614035ac34a30effa4f.setIcon(icon_e72a0cb4e0cc502f742837fc5b1c8f22);
+            
+    
+            var marker_5d4d1f7b0bbe7d514c6c4d3ffbbaec25 = L.marker(
+                [-8.49346, -77.5319],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_6ee8d64d607cdb5aa395d465416e1985 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_5d4d1f7b0bbe7d514c6c4d3ffbbaec25.bindTooltip(
+                `<div>
+                     Sihuas Ancash Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5d4d1f7b0bbe7d514c6c4d3ffbbaec25.setIcon(icon_6ee8d64d607cdb5aa395d465416e1985);
+            
+    
+            var marker_f02366a12638e1ef5439b4a0189eff04 = L.marker(
+                [-9.30995, -76.9854],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_9fc438f4eabe632af31abac3d8de2b85 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_f02366a12638e1ef5439b4a0189eff04.bindTooltip(
+                `<div>
+                     Southern Conchucos Ancash Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f02366a12638e1ef5439b4a0189eff04.setIcon(icon_9fc438f4eabe632af31abac3d8de2b85);
+            
+    
+            var marker_30c28155aae512fcf6e8afd1f8686487 = L.marker(
+                [-8.97356, -77.4146],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_36daf3957f248760a1449fbf7ee7657e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_30c28155aae512fcf6e8afd1f8686487.bindTooltip(
+                `<div>
+                     Northern Conchucos Ancash Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_30c28155aae512fcf6e8afd1f8686487.setIcon(icon_36daf3957f248760a1449fbf7ee7657e);
+            
+    
+            var marker_438d627adc1a53aecb5ddff6c58cf734 = L.marker(
+                [-10.3302, -76.2753],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_e8f27e8d7cb566087175fb7d9a047aca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_438d627adc1a53aecb5ddff6c58cf734.bindTooltip(
+                `<div>
+                     Santa Ana de Tusi Pasco Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_438d627adc1a53aecb5ddff6c58cf734.setIcon(icon_e8f27e8d7cb566087175fb7d9a047aca);
+            
+    
+            var marker_39e597a241271275f451c0f86a06a0ae = L.marker(
+                [-9.84463, -76.4981],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_316f251005af1d60ae133cc4496324f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_39e597a241271275f451c0f86a06a0ae.bindTooltip(
+                `<div>
+                     Margos-Yarowilca-Lauricocha Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_39e597a241271275f451c0f86a06a0ae.setIcon(icon_316f251005af1d60ae133cc4496324f5);
+            
+    
+            var marker_08eb0928f56c8f7c38508cf5535ae3ec = L.marker(
+                [-9.85887, -75.4382],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_c3aff637fee2802130cd93ae8206e896 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_08eb0928f56c8f7c38508cf5535ae3ec.bindTooltip(
+                `<div>
+                     Panao Huánuco Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_08eb0928f56c8f7c38508cf5535ae3ec.setIcon(icon_c3aff637fee2802130cd93ae8206e896);
+            
+    
+            var marker_cfd0760220c2d026866bd637cf227a4d = L.marker(
+                [-3.22497, -75.5603],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_4be72aef316c1fae763cb3f6ab4e1b2b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_cfd0760220c2d026866bd637cf227a4d.bindTooltip(
+                `<div>
+                     Taushiro (NK)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cfd0760220c2d026866bd637cf227a4d.setIcon(icon_4be72aef316c1fae763cb3f6ab4e1b2b);
+            
+    
+            var marker_2fa22c8330e1d64ca49de47ade89777c = L.marker(
+                [-11.4812, -73.4451],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_9c23dd8d272bde7b8baaf0099463bd3b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_2fa22c8330e1d64ca49de47ade89777c.bindTooltip(
+                `<div>
+                     Caquinte (Arawakan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2fa22c8330e1d64ca49de47ade89777c.setIcon(icon_9c23dd8d272bde7b8baaf0099463bd3b);
+            
+    
+            var marker_4b938849dea7e02d24f374096ace9e06 = L.marker(
+                [-11.1086, -73.3087],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_4a1434339ccef37ab25106b97ddf4250 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_4b938849dea7e02d24f374096ace9e06.bindTooltip(
+                `<div>
+                     Yine (Arawakan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4b938849dea7e02d24f374096ace9e06.setIcon(icon_4a1434339ccef37ab25106b97ddf4250);
+            
+    
+            var marker_8eecba8cf3a0adba255f3b28057c91c6 = L.marker(
+                [-4.44006, -75.4211],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_bc634f392165740d926092f0c5488d03 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_8eecba8cf3a0adba255f3b28057c91c6.bindTooltip(
+                `<div>
+                     Urarina (NK)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8eecba8cf3a0adba255f3b28057c91c6.setIcon(icon_bc634f392165740d926092f0c5488d03);
+            
+    
+            var marker_da921fa7182ac66f2f299f3bf8fe55ee = L.marker(
+                [-12.14477, -77.01956],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_2625cced9ffe5062fe602e1b84206ee9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_da921fa7182ac66f2f299f3bf8fe55ee.bindTooltip(
+                `<div>
+                     Inmaculada Sign Language (Sign Languages)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_da921fa7182ac66f2f299f3bf8fe55ee.setIcon(icon_2625cced9ffe5062fe602e1b84206ee9);
+            
+    
+            var marker_070456c2e201308654eddfafde1e8504 = L.marker(
+                [-11.9008, -76.8213],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_41edf317bd309c8d6809d55aea1019af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_070456c2e201308654eddfafde1e8504.bindTooltip(
+                `<div>
+                     Peruvian Sign Language (Sign Languages)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_070456c2e201308654eddfafde1e8504.setIcon(icon_41edf317bd309c8d6809d55aea1019af);
+            
+    
+            var marker_2bab182434f986f0b7b5f88af9ffdf8b = L.marker(
+                [-11.3704, -72.0409],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_e3f7f355b2cf78fa40b3c1b232210d75 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_2bab182434f986f0b7b5f88af9ffdf8b.bindTooltip(
+                `<div>
+                     Yora (Pano-Tacanan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2bab182434f986f0b7b5f88af9ffdf8b.setIcon(icon_e3f7f355b2cf78fa40b3c1b232210d75);
+            
+    
+            var marker_28b6b05e6cc3b70e19f98dc5fdd202c3 = L.marker(
+                [-10.5454, -75.315],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_a6d4d0a5db758534c373f4cefc752a65 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_28b6b05e6cc3b70e19f98dc5fdd202c3.bindTooltip(
+                `<div>
+                     Yanesha' (Arawakan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_28b6b05e6cc3b70e19f98dc5fdd202c3.setIcon(icon_a6d4d0a5db758534c373f4cefc752a65);
+            
+    
+            var marker_2f2fbb271be1598d0b0b595776b42d46 = L.marker(
+                [-10.37875, -74.060306],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_8a7068004900b53eca1123a90211d0f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_2f2fbb271be1598d0b0b595776b42d46.bindTooltip(
+                `<div>
+                     South Ucayali Ashéninka (Arawakan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2f2fbb271be1598d0b0b595776b42d46.setIcon(icon_8a7068004900b53eca1123a90211d0f0);
+            
+    
+            var marker_cee434671b04d53ea45863d3bd037a34 = L.marker(
+                [-10.47249, -74.60281],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_84d56ab76df1e04ec5b79f4361e76af4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_cee434671b04d53ea45863d3bd037a34.bindTooltip(
+                `<div>
+                     Pichis Ashéninka (Arawakan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cee434671b04d53ea45863d3bd037a34.setIcon(icon_84d56ab76df1e04ec5b79f4361e76af4);
+            
+    
+            var marker_286d18d1deefd7a7f2a47e0a9583bafd = L.marker(
+                [-9.82364, -74.61947],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_06b2ace3a957a0ed528ec81099eaa0b7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_286d18d1deefd7a7f2a47e0a9583bafd.bindTooltip(
+                `<div>
+                     Ajyíninka Apurucayali (Arawakan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_286d18d1deefd7a7f2a47e0a9583bafd.setIcon(icon_06b2ace3a957a0ed528ec81099eaa0b7);
+            
+    
+            var marker_445b136e1c0e625987a09e8218946b4a = L.marker(
+                [-12.62, -75.7],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_f0407b23753745e26de8a60e0dd2b67b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_445b136e1c0e625987a09e8218946b4a.bindTooltip(
+                `<div>
+                     Yauyos Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_445b136e1c0e625987a09e8218946b4a.setIcon(icon_f0407b23753745e26de8a60e0dd2b67b);
+            
+    
+            var marker_0be33f75d023a6d12d2665f337544ab1 = L.marker(
+                [-3.32733, -76.527],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_6184f935096fdcc0bb7cc7a80b9c066e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_0be33f75d023a6d12d2665f337544ab1.bindTooltip(
+                `<div>
+                     Southern Pastaza Quechua (Quechuan)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0be33f75d023a6d12d2665f337544ab1.setIcon(icon_6184f935096fdcc0bb7cc7a80b9c066e);
+            
+    
+            var marker_54f7e3b00fca4a39666eaa69770d1d4e = L.marker(
+                [-4.74563, -73.6507],
+                {
+}
+            ).addTo(marker_cluster_119b0e67362ef73fe7db117d25db740d);
+        
+    
+            var icon_f8eb52386a1a72e500868a95d23379b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_54f7e3b00fca4a39666eaa69770d1d4e.bindTooltip(
+                `<div>
+                     Peruvian Amazonian Spanish (Indo-European)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_54f7e3b00fca4a39666eaa69770d1d4e.setIcon(icon_f8eb52386a1a72e500868a95d23379b9);
+            
+    
+            marker_cluster_119b0e67362ef73fe7db117d25db740d.addTo(map_35dfa6afad261390870380e44d4931c8);
+        
+</script>
+</html>
