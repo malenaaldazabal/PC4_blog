@@ -139,7 +139,7 @@ elif  pagina_seleccionada == 'Experiencia':
     # En este caso, {texto_2} se reemplaza por el valor de la variable texto.
 
     # Agregamos un subtítulo para el video
-    st.markdown("<h2 style='text-align: center;'>Video explicativos que desarrollé en mis PC's 🎥</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'>Videos explicativos que desarrollé en mis PC's 🎥</h2>", unsafe_allow_html=True)
     
     # <h2 style='text-align: center;'>Aquí escribe un nombre creativo para presentar tu video</h2>: Esta es una cadena de código HTML.
     # La etiqueta <h2> se utiliza para un encabezado de segundo nivel en una página web.
